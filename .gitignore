@@ -1,0 +1,3 @@
+# glob patterns for files git should ignore
+.DS_Store
+build

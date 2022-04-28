@@ -1,0 +1,30 @@
+# Parameters for learning from Hawk-Dove interactions
+# Genotypic traits: Qini, alph, v
+max_num_thrds = 1
+num_loci = 3
+ng = 500
+N = 99
+KR = 1
+T = 1000
+T0hist = 100
+numgen = 1
+prwr = 0.0
+V0 = 1.0
+Vn = 1.0
+Vx = 1.0
+C = 2.0
+qn = 1.0
+qx = 1.0
+pmax = 0.99
+bet = 8.0
+mut_rate = [ 0.000, 0.000, 0.000]
+SD =       [ 0.04 , 0.04 , 0.04 ]
+max_val =  [ 4.00 , 1.00 , 4.00 ]
+min_val =  [ 0.00 , 0.00 , 0.00 ]
+rho =      [ 0.50 , 0.50 , 0.50 ]
+all0 =     [ 0.500, 0.010, 1.000]
+learn_hist = false
+read_from_file = false
+h5InName = "Run_g99_deg02Q1a0prw00.h5"
+h5OutName = "Run_g99_deg02Q1a0prw00.h5"
+h5HistName = "Run_g99_deg02Q1a0prw00hist.h5"
